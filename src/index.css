@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Lato:wght@300&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+code {
+  font-family: 'Lato', sans-serif;
+}

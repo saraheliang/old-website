@@ -1,0 +1,18 @@
+.fixed-navbar {
+    position: fixed;
+    height: 10%;
+    width: 100%;
+    background-color: rgb(106, 166, 206, 0.85);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+.fixed-navbar p {
+    display: flex;
+    margin-left: 60px;
+}
+.fixed-navbar .no-margin {
+    margin: 0;
+}

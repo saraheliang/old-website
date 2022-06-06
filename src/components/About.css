@@ -1,0 +1,25 @@
+.about-content {
+    height: 100vh;
+    background-color: #6AA6CE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+img {
+    width: 500px;
+    /* border-radius: 10px; */
+}
+/* p {
+
+} */
+#blurb {
+    color: white;
+}
+
+
+.forMore p {
+    background-color: white;
+    height: 1000px;
+}
