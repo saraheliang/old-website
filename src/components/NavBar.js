@@ -4,7 +4,8 @@ import './NavBar.css';
 // create a component by writing a function
 function NavBar() {
   return(
-    //   Add NavBar here
+    // navbar can use MUI navigation "drawer" for collapsable navbar
+    //rest of navbar (fully expanded) will have to be custom
     <div class="fixed-navbar">
         <p class="no-margin">home</p>
         <p>about</p>

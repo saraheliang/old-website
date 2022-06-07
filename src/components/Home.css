@@ -1,4 +1,4 @@
-/*** NEW PAGE BEGINNING: home PAGE ***/
+/*** NEW PAGE BEGINNING: HOME PAGE ***/
 .home-content {
   height: 100vh;
   background-color: #6AA6CE;
@@ -16,6 +16,7 @@
   font-family: 'Roboto Condensed', sans-serif;
   letter-spacing: 10px;
   margin: 0;
+  text-align: center;
 }
 /* .home-content h1 .white {
   color: white;
@@ -78,10 +79,39 @@
   /* maybe use position absolute to glue the logos to the bottom of the div */
   /* without shifting other elements in the div */
   margin-top: 5%;
+  position: relative;
 }
-
-
+.icon {
+  width: 50px;
+  color: white;
+  margin-left: 35px;
+}
+.icon:hover {
+  opacity: 0.5;
+}
+.no-space {
+  margin: 0;
+}
+/* 
 .forMore p {
     background-color: white;
     height: 1000px;
+} */
+#email-msg {
+  font-family: 'Lato', sans-serif;
+  color:#303A41;
+}
+#connect-msg {
+  color: #87919b;
+  font-family: 'Lato', sans-serif;
+}
+.center-this {
+  text-align: center;
+  padding: 0 10px 0 10px;
+}
+
+.scroll-to-top {
+  position: absolute;
+  bottom: 0;
+  right: 10px;
 }
