@@ -14,9 +14,9 @@ import {
 } from 'react-router-dom';
 
   // import component
-import Home from "./components/Home";
-import About from "./components/About";
-import Portfolio from "./components/Portfolio";
+import Home from "./components/Home/Home";
+import About from "./components/About/About";
+import Portfolio from "./components/Portfolio/Portfolio";
 
 // create a component by writing a function
 function App() {

@@ -1,4 +1,5 @@
 import React from 'react';
+import NavBar from '../NavBar/NavBar';
 import './Portfolio.css';
 
 // create a component by writing a function
