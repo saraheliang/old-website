@@ -10,6 +10,7 @@
   align-items: center;
   flex-direction: column;
 }
+
 .home-content h1 {
   color: #303A41;
   font-size: 130px;
@@ -18,9 +19,7 @@
   margin: 0;
   text-align: center;
 }
-/* .home-content h1 .white {
-  color: white;
-} */
+
 .home-content h2 {
   color: #e1f2ff;
   /* font-family: 'Inter', sans-serif; */
@@ -29,17 +28,11 @@
   font-size: 31px;
   font-weight: 100;
 }
-/* .home-display {
-  height: 100vh;
-  background-color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-} */
+
 .home-buttons {
   margin-top: 20px;
 }
+
 #MUI-about-me {
   background-color: #08568D;
   color: #FFFFFF;
@@ -53,6 +46,7 @@
   text-transform: lowercase;
   font-family: 'Lato', sans-serif;
 }
+
 #MUI-see-my-work{ 
   background-color: white;
   color: #08568D;
@@ -71,47 +65,44 @@
   text-decoration: none;
   color: white;
 }
+
 #see-my-work-link {
   text-decoration: none;
   color: #08568D;
 }
+
 #contact-logos {
   /* maybe use position absolute to glue the logos to the bottom of the div */
   /* without shifting other elements in the div */
-  margin-top: 5%;
-  position: relative;
+  margin-top: 4%;
+  display: flex;
+  justify-content: center;
+  /* position: relative; */
+  @media
 }
+
 .icon {
   width: 50px;
   color: white;
-  margin-left: 35px;
+  margin-left: 28px;
+  margin-right: 28px;
+  transform: scale(1.8);
 }
+
 .icon:hover {
   opacity: 0.5;
 }
+
 .no-space {
   margin: 0;
 }
-/* 
-.forMore p {
-    background-color: white;
-    height: 1000px;
-} */
+
 #email-msg {
   font-family: 'Lato', sans-serif;
   color:#303A41;
 }
-#connect-msg {
-  color: #87919b;
-  font-family: 'Lato', sans-serif;
-}
+
 .center-this {
   text-align: center;
   padding: 0 10px 0 10px;
-}
-
-.scroll-to-top {
-  position: absolute;
-  bottom: 0;
-  right: 10px;
 }

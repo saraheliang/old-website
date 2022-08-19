@@ -1,0 +1,49 @@
+.about-parent-container {
+}
+.about-content {
+    height: 100vh;
+    background-color: #6AA6CE;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 500px;
+    border-radius: 10px;
+}
+
+#blurb {
+    color: white;
+    font-weight: 800;
+}
+
+.word-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.container {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+}
+h1 .about-header {
+    font-size: 50px;
+    font-weight: 500;
+}
+p {
+    font-size: 18px;
+    line-height: 2.5;
+}
+#style-link {
+    text-decoration: none;
+    color: #6AA6CE;
+    font-weight: 800;
+    text-decoration: underline;
+}
+#bold-color {
+    color: #6AA6CE;
+    font-weight: bold;
+}
